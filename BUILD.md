@@ -55,7 +55,7 @@ loads every DLL in `bin\NativeMods\` at startup.
 
 When upgrading, set `TagHUDLess=0` in an existing `fgvk.ini` and restart.
 Existing INI files are preserved; the new default does not replace an explicit
-`TagHUDLess=1`, which can still cause orbit smearing with protected depth/motion.
+`TagHUDLess=1`, which can still cause orbit flickering with protected depth/motion.
 
 ## Script Extender coexistence
 
